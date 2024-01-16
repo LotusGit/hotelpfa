@@ -1,0 +1,125 @@
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px 0px;
+  background-color: #c81f1f;
+  width: 100%;
+  max-width: 100%;
+}
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #c81f1f;
+}
+a{
+  text-decoration: dotted;
+}
+.img-1 {
+  height: 21px;
+  width: 150px;
+}
+.action-1 {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 12px;
+}
+.text-2 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: Titillium Web;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.action-2 {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 12px;
+}
+.text-3 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: Titillium Web;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.action-3 {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 12px;
+}
+.text-4 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: Titillium Web;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  color: #ffffff;
+
+}
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  background-color: #c81f1f;
+}
+.profile {
+  height: 40px;
+  width: auto;
+  background-color: #c81f1f;
+  display: block ruby;
+}
+.text-5 {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Titillium Web;
+  letter-spacing: 0.4399999976158142px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  display: block ruby;
+}
+.image {
+  height: 40px;
+  width: 40px;
+  display: block ruby;
+}
+.settings-icon {
+  height: 36px;
+  width: 36px;
+}
+.img-6 {
+  height: 36px;
+  width: 36px;
+  background-color: #ffffff;
+}
+img{
+  height: 40px;
+  border-radius:50%;
+}

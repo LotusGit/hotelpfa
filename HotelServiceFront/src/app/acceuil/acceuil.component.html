@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row" *ngFor="let r of rooms">
+    <div class="col-sm-6 wowload fadeInUp">
+      <div class="rooms">
+        <img class="img-responsive"  [src]="'data:image/jpg;base64,'+r.photo.image.data" >
+        <div class="info">
+          <h3>{{r.title}}</h3>
+          <p> {{r.description}}</p>
+          <button class="btn layoutbtn btn-default" (click)="gotoReservation(r.id)">Check Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<Button (click)="logout()">logout</Button>
